@@ -1,6 +1,7 @@
 #include "lacore.h"
 #include "prcore.h"
 #include "imcore.h"
+#include "iocore.h"
 
 // function to load train and test data
 int load_iris(const char *filename, matrix_t *set, vector_t *label)
